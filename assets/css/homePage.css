@@ -1,0 +1,33 @@
+body {
+
+    
+}
+    
+    h1{ 
+        color: pink
+    }
+    p{
+        color:pink;
+    }
+
+    
+h3.pinkText{ color:pink}
+
+#pinkText{
+    color: pink;
+}
+#firstBox{
+    width: 200px;
+    height: 100px;
+    background-color: indianred;
+    padding: 20px;
+    margin: 50px;
+    border: 10px pink dotted;
+
+}
+.secondBox{
+
+    width: 500px;
+    height: 100px;
+    background-color: indianred;
+}
