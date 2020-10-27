@@ -23,11 +23,20 @@ h3.pinkText{ color:pink}
     padding: 20px;
     margin: 50px;
     border: 10px pink dotted;
-
+    z-index: 2;
+    position: relative;
 }
 .secondBox{
 
     width: 500px;
     height: 100px;
     background-color: indianred;
+}
+
+#thirdBox
+{
+    width: 300px;
+    height: 300px;
+    background-color: coral;
+    margin: -100px
 }
