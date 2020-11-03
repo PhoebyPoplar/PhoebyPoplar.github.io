@@ -26,3 +26,19 @@ color: white;
 background-color: green;
 font-size: 40px;
 }
+
+div.flexContainer{
+    display:flex;
+    background-color: lightseagreen;
+    justify-content: ;space-between;
+    align-items: center;
+
+}
+div.felcContainer > div {
+    background-color: grey;
+width: 200px;
+height: 200px;
+margin: 20 px 10 px;
+padding:20px;
+
+}
