@@ -5,12 +5,8 @@
     padding: 20 px;
 }
 
-.riceText {
-
-    background-color: palevioletred color: white;
-    padding: 10px 20px;
-
-}
+.riceText {    background-color: palevioletred color: white;
+    padding: 10px 20px;}
 
 .container-fluid.bearBentoBox {
 
@@ -18,11 +14,56 @@
     padding-right: 0 !important;
 
 }
-.bearBentoBox .col-md-4 p{
+
+.bearBentoBox .col-md-4 p {
     background-color: teal;
     color: white;
 }
-.bearBentoBox .col-md-8 p{
+
+.bearBentoBox .col-md-8 p {
     background-color: bisque;
     color: white;
+}
+
+.saladRow {
+    background-color: dark olive
+}
+
+.saladRow p {
+
+    padding: 5px;
+    color: lightgreen;
+}
+
+/* bootstrap vertical alignment */
+.gridExercise {
+    background-color: lightseagreen margin: 30px 0;
+    margin-bottom: 30 px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 10px 0;
+
+}
+
+.parentTarget div {
+    height: 50px;
+    background-color: lightblue;
+    border-color: black;
+    border-style: solid;
+
+
+}
+
+.gridExercise .height100 {
+    height: 100px;
+}
+.divExercise customRow{
+hieght: 300px;
+align-items:center;
+
 }
