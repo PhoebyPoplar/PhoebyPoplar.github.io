@@ -1,0 +1,18 @@
+.customNav{
+    background-color: white;
+}
+.customNav li.nav-item.active{
+    color:lightpink;
+    font-size:black;
+    text-description:underline;
+
+}
+.customNav li.nav-item.active a{
+    color:white !important ;
+}
+.customNav li.nav-item.active:hover{
+    color: lightpink !important;
+}
+.customNav li.nav-item.:hover{
+    color: lightpink !important;
+}
