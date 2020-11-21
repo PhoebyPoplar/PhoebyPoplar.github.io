@@ -1,18 +1,23 @@
-.customNav{
-    background-color: white;
-}
-.customNav li.nav-item.active{
-    color:lightpink;
-    font-size:black;
-    text-description:underline;
 
+
+ <!-- FontAwesome -->
+ <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+ #firstBox{
+    width: 200px;
+    height: 100px;
+    background-color: #f6eeeb;
+    padding: 20px;
+    margin: 50px;
+    border: 10px;
+    z-index: 2;
+    position: relative;
 }
-.customNav li.nav-item.active a{
-    color:white !important ;
 }
-.customNav li.nav-item.active:hover{
-    color: lightpink !important;
-}
-.customNav li.nav-item.:hover{
-    color: lightpink !important;
+.title {
+    color: black;
+    background-color: #f6eeeb;
+  }
+
+.title .titleBG {
+    background-color: #f6eeeb;
 }
