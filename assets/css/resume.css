@@ -1,10 +1,12 @@
-
+body {
+    color: black;
+}
 
  <!-- FontAwesome -->
- <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+ 
  #firstBox{
-    width: 200px;
-    height: 100px;
+    width: 800px;
+    height: 500px;
     background-color: #f6eeeb;
     padding: 20px;
     margin: 50px;
@@ -12,12 +14,30 @@
     z-index: 2;
     position: relative;
 }
-}
-.title {
-    color: black;
+#firstBox{
+    width: 8000px;
+    height: 400px;
     background-color: #f6eeeb;
+    padding: 20px;
+    margin: 0px;
+    border: 10px;
+    z-index: 2;
+    position: relative;
+
+}
+p {
+
+    background-color: white;
   }
 
-.title .titleBG {
+
+ #footer{
+    width: 800px;
+    height: 60px;
     background-color: #f6eeeb;
-}
+    padding: 0px;
+    margin: 0px;
+    border: 10px;
+    z-index: 0;
+    position: relative;
+ }
