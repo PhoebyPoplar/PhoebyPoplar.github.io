@@ -2,99 +2,66 @@ body {
     color: black;
 }
 #nav-resume{
-    color:lightslategrey;
+    color:#f6eeeb;
 }
  
 
-
-
-p {
-
-    background-color: white;
-  }
-
-
- #footer{
-    width: 800px;
-    height: 60px;
-    background-color: #f6eeeb;
-    padding: 0px;
-    margin: 0px;
-    border: 10px;
-    z-index: 0;
-    position: relative;
- }
-
- * {
-    box-sizing: border-box;
-    
-    
-  }
-  
-  /* Create two equal columns that floats next to each other */
-  .column {
-  
-    float: left;
-    width: 50%;
-    padding: 50px;
-    height: 300px; /* Should be removed. Only for demonstration */
-    
-  }
-  
-/* Create two equal columns that floats next to each other */
-.columnBottom {
-  
-    float: left;
-    width: 50%;
-    padding: 50px;
-    height: 900px; /* Should be removed. Only for demonstration */
-   text-align: left;
-  }
-
-
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-
-   
-  }
-  #leftCol
-{
-    float: left;
-    width: 50%;
-    padding: 50px;
-    height: 300px;
-    margin: 50px;
-}
-#leftColBottom
-{
-    float: left;
-    width: 50%;
-    padding: 50px;
-    height: 600px;
-    margin: 50px;
-}
-
-#rightcol{
-
-    float: right;
-    width: 50%;
-    padding: 50px;
-    height: 300px;
-    margin: 50px;
-}
 .col-sm-8{
-color:lightpink
+
 
 }
-.fasfa-circlesolid{
-
-    color:pink;
+.col-sm-8-1{
+	background-color: #f6eeeb;
+	width: 60%;
 }
-.li{
-    color: pink;
 
+
+.col-sm-4{
+	font-size: 13px;
+}
+.col-sm-4-1{
+	background-color: #f6eeeb;
+	width: 40%;
+}
+
+/* box border */
+.intro, .contact, .achievements, .projects, .interests, .experience, .education, .skills, .bottomRow {
+    
+    padding: 5px;
+    margin-top: 30px;
+	font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+	
+	
+}
+
+.projects li, .experience li, .achievements li, .projects li, .interests li, .experience li, .education li, .skills li {
+    color: #c4a398;
+}
+
+.projects li > p, .experience li > p, .achievements li > p, .projects li > p, .interests li > p, .experience li > p, .education li > p, .skills li > p  {
+    color: black;  
+}
+
+
+.contactPic {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+		
+}
+.techSkill li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.techSkill i.fa-circle {
+    font-size: 10px;
+    letter-spacing: 10px;
+    color: #f6eeeb;
+}
+
+.techSkill i.fa-circle.solid {
+    color: #c4a398;
 }
