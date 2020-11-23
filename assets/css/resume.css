@@ -86,15 +86,15 @@ p {
     height: 300px;
     margin: 50px;
 }
-#col-sm-8{
+.col-sm-8{
 color:lightpink
 
 }
-#fasfa-circlesolid{
+.fasfa-circlesolid{
 
     color:pink;
 }
-#li{
+.li{
     color: pink;
 
 }
