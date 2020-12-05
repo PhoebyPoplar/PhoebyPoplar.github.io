@@ -46,6 +46,9 @@
 .project-covers{
     padding-left:100px;
     padding-right: 100px;
+    padding-bottom: 400px;
+    align-items: center;
+    
 }
 
 a:hover, a:active {
@@ -56,7 +59,12 @@ a:hover, a:active {
 </head>
   <body class="transition-enabled"> 
  <!--bootstrap navigation bar-->
- <div id="includedContent"></div>
+
+ <script> 
+  $(function(){
+    $("#includedContent").load("navigation.html"); 
+  });
+  </script> 
 
   <div class="site-wrap cfix">
     <div class="site-container">
