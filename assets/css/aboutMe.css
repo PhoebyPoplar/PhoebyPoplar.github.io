@@ -1,0 +1,77 @@
+body {
+    color: black;
+}
+#nav-resume{
+    color:#f6eeeb;
+}
+ 
+
+.col-sm-8{
+
+
+}
+.col-sm-8-1{
+	background-color: #f6eeeb;
+	width: 60%;
+}
+
+.col-md-4{
+	border-style: none solid none none;
+	border-color: #f6eeeb	
+}
+.col-sm-4{
+	font-size: 13px;
+	white-space: nowrap;
+	
+}
+.col-sm-4-1{
+	background-color: #f6eeeb;
+	width: 40%;
+}
+
+/* box border */
+.intro, .contact, .achievements, .projects, .interests, .experience, .education, .skills, .bottomRow {
+    
+    padding: 5px;
+    margin-top: 30px;
+	font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+	
+	
+}
+
+.projects li, .experience li, .achievements li, .projects li, .interests li, .experience li, .education li, .skills li {
+    color: #c4a398;
+}
+
+.projects li > p, .experience li > p, .achievements li > p, .projects li > p, .interests li > p, .experience li > p, .education li > p, .skills li > p  {
+    color: black;  
+}
+
+
+.contactPic {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+		
+}
+.techSkill li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.techSkill i.fa-circle {
+    font-size: 10px;
+    letter-spacing: 10px;
+    color: #f6eeeb;
+}
+
+.techSkill i.fa-circle.solid {
+    color: #c4a398;
+}
+
+.containermyResume{
+
+    
+}
